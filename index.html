@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Manipulation</title>
+    <style>
+        .styled-div {
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: lightblue;
+        }
+        .new-element {
+            margin-top: 5px;
+            padding: 5px;
+            border: 1px dashed green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JavaScript DOM Manipulation Demo</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Dynamic Text Content</h2>
+            <p id="text-to-change">This is the original text.</p>
+            <button id="change-text-btn">Change Text</button>
+        </section>
+
+        <section>
+            <h2>Dynamic CSS Styling</h2>
+            <div id="style-div" class="styled-div">Hover over me or click the button!</div>
+            <button id="change-style-btn">Change Style</button>
+        </section>
+
+        <section>
+            <h2>Add and Remove Elements</h2>
+            <article id="element-container">
+                <p>Container for new elements.</p>
+            </article>
+            <button id="add-element-btn">Add Element</button>
+            <button id="remove-element-btn">Remove Last Element</button>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>&copy; Okech 2025</small></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
